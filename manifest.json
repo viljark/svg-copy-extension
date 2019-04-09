@@ -1,0 +1,21 @@
+{
+  "name": "SVG Copy",
+  "version": "1.0",
+  "description": "With this extension you can Shift + Click on SVG icons to copy them to clipboard!",
+  "author": "Viljar Kärgenberg",
+  "permissions": ["storage", "clipboardWrite", "declarativeContent", "notifications"],
+  "options_page": "components/options/options.html",
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["scripts/content.js"],
+      "css": ["scripts/content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
