@@ -4,7 +4,7 @@ Supports only Chrome
 
 ## installation
 
-* download the zip https://github.com/viljark/svg-copy-extension/archive/master.zip or clone the repo
+* download the zip https://github.com/viljark/svg-copy-extension/archive/master.zip and extract it, or clone the repo
 * go to chrome://extensions/ or Click the Chrome menu icon and select Extensions from the Tools menu. 
 * ensure that the "Developer mode" checkbox in the top right-hand corner is checked. 
 * press "Load unpacked" and find the path of the downloaded/extracted folder
